@@ -1,26 +1,95 @@
-/*head*/
+header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 2rem;
+}
 
-/*header*/
+header h1 {
+	display: flex;
+	justify-content: flex-start;
+	margin: 2.5rem;
+}
 
-/*header nav*/
+header nav {
+	display: flex;
+	justify-content: flex-end;
+	margin: 3rem;
+}
 
-/*h1*/
+header nav a {
+	border: 1px solid black;
+	background-color: rgba(39, 59, 187, 0.552);
+	margin: 0.5rem;
+	padding: 0.3rem;
+}
 
-/*a*/
+a {
+	background-color: rgba(39, 59, 187, 0.552);
+	color: hsl(0, 0%, 100%);
+	font-size: larger;
+	border-radius: 10%;
+}
 
-/*button*/
+p {
+	font-weight: bod;
+}
 
-/*top-project-display*/
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+}
 
-/*.top-project-display img*/
+.top-project-display {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-100%, -0%);
+}
 
-/*projects-display*/
+.over-image {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-0%, -300%);
+}
 
-/* .projects-display img {
-	margin: 1px;
-	width: 200rem;
-	height: 200rem;
-	border: 1px;
-} */
+.top-project-display img {
+	border-radius: 10%;
+	position: relative;
+	width: 500px;
+	height: 300px;
+	top: 50%;
+	left: 50%;
+}
 
-/*footer*/
+.projects-display {
+	display: flex;
+	flex-flow: row-wrap;
+	justify-content: space-around;
+	margin: 2rem;
+}
+
+.projects-display div img {
+	border-radius: 10%;
+	margin: 2px;
+	width: 200px;
+	height: 200px;
+}
+
+.projects-display p {
+	text-align: center;
+	text-decoration-line: underline;
+}
+
+footer {
+	background-color: rgba(60, 172, 228, 0.576);
+	text-align: center;
+	padding: 3rem;
+}
+
+footer a {
+	padding: 0.3rem;
+	border: 2px black;
+}
