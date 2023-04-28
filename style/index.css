@@ -36,17 +36,17 @@ header nav {
 }
 
 header nav a {
-	background-color: white;
-	border: 1px solid black;
+	background-color: #fff;
+	border: 1px solid #000;
 	margin: 0.5rem;
 	padding: 0.5rem;
 }
 
 a {
-	color: hsl(0, 0%, 0%);
+	color: #000;
 	font-size: larger;
 	border-radius: 10%;
-	border: 2px black;
+	border: 2px #000;
 	font-family: "Courgette", cursive;
 }
 
@@ -58,7 +58,7 @@ p {
 .container {
 	position: relative;
 	text-align: center;
-	color: white;
+	color: #fff;
 	font-weight: bolder;
 	top: 50%;
 	left: 50%;
@@ -193,6 +193,13 @@ footer button {
 	text-align: center;
 	font-weight: bolder;
 }
+/*//////////////////Mobile 800px Home///////////////////////////*/
+
+@media screen and (max-width: 800px) {
+	.projects-display div {
+		width: 60%;
+	}
+}
 
 /*//////////////////Mobile 500px///////////////////////////*/
 
@@ -213,7 +220,7 @@ footer button {
 	}
 
 	.main-content {
-		margin-bottom: 0px;
+		margin-bottom: 0;
 	}
 
 	.top-project-display-main img {
@@ -249,13 +256,5 @@ footer button {
 	.top-project-display img {
 		width: 400px;
 		height: auto;
-	}
-}
-
-/*//////////////////Mobile 800px Home///////////////////////////*/
-
-@media screen and (max-width: 800px) {
-	.projects-display div {
-		width: 60%;
 	}
 }
