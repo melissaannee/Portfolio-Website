@@ -194,9 +194,10 @@ footer button {
 	font-weight: bolder;
 }
 
-/*//////////////////Mobile Home///////////////////////////*/
+/*//////////////////Mobile 500px///////////////////////////*/
 
 @media screen and (max-width: 500px) {
+	/*/////////////////Mobile Home/////////////////////*/
 	header {
 		flex-direction: column;
 	}
@@ -248,5 +249,13 @@ footer button {
 	.top-project-display img {
 		width: 400px;
 		height: auto;
+	}
+}
+
+/*//////////////////Mobile 800px Home///////////////////////////*/
+
+@media screen and (max-width: 800px) {
+	.projects-display div {
+		width: 60%;
 	}
 }
